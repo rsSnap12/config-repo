@@ -1,0 +1,12 @@
+server:
+  port: 0
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/SpaceData
+    username: postgres
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
